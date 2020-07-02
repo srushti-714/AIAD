@@ -7,9 +7,6 @@
     },
     "adminPassword": {
       "type": "SecureString"
-    },
-    "deploymentID": {
-      "type": "string"
     }
   },
   "variables": {
