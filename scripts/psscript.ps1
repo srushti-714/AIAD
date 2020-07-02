@@ -40,7 +40,7 @@ Set-PSRepository PSGallery -InstallationPolicy Trusted
 Install-Module Az -Repository PSGallery -Force -AllowClobber
 
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/srushti-714/AIAD/master/aiadmodule.psm1" -OutFile "C:\aiadmodule.psm1"
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/srushti-714/AIAD/master/scripts/ENVALIDATION-AIAD.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/srushti-714/AIAD/master/scripts/ENVALIDATION-AIAD.ps1" -OutFile "C:\ENVALIDATION-AIAD.ps1"
 
 
  $WebClient = New-Object System.Net.WebClient
