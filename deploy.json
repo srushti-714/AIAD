@@ -148,12 +148,12 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://labworkspace797575.blob.core.windows.net/aiad/psscript.ps1"
+           "https://raw.githubusercontent.com/srushti-714/AIAD/master/scripts/psscript.ps1"
             
           ]
         },
         "protectedSettings": {
-          "commandToExecute": "powershell -ExecutionPolicy Bypass -File aiad/psscript.ps1"
+          "commandToExecute": "powershell -ExecutionPolicy Bypass -File psscript.ps1"
         }
       }
     },
