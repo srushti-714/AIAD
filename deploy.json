@@ -151,12 +151,12 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://experienceazure.blob.core.windows.net/templates/virtual-machines-and-Compute/psscript.ps1",
+            "https://raw.githubusercontent.com/srushti-714/AIAD/master/scripts/psscript.ps1"
             
           ]
         },
         "protectedSettings": {
-          "commandToExecute": "powershell -ExecutionPolicy Bypass -File virtual-machines-and-Compute/psscript.ps1"
+          "commandToExecute": "powershell -ExecutionPolicy Bypass -File /master/scripts/psscript.ps1"
         }
       }
     },
