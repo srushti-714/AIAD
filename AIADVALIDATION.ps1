@@ -11,7 +11,7 @@
 
 cd C:\
 
-#Connect-AzAccount
+Connect-AzAccount
  $timer = (Get-Date) -replace "/", "-" `
 -replace " ","" `
 -replace ":", "-"
