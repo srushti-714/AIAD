@@ -4,7 +4,7 @@
 ## 1. Ensure you are replacing the ODL ID with the actual ODL ID you want to validate against ######################
 ## 2. Ensure to replace value of $stopsqlpooloncesuccessfull to Yes if you want to stop the sql pools once the #####
 #      validation is passed                                                                                      ###
-## 3. Ensure to replace value of $stopVMsoncesuccessfull to Yes if you want to stop the Vritual Machines once the ##
+## 3. Ensure to replace value of $stopVMsoncesuccessfull to Yes if you want to stop the Virtual Machines once the ##
 #      validation is passed   
 ##4. Ensure to replace  $global:userName and $global:Password to the account you are using to run the script                                                                                     #
 ####################################################################################################################  
