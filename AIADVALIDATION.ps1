@@ -38,8 +38,8 @@ Select-AzSubscription -Subscription $sub.Id
  foreach($rg in $rgs)
 {
    $uniqueId= $rg.Tags['DeploymentId']
-   $global:userName="admin@msazurelabs.onmicrosoft.com"
-   $global:password="Spektra@1234"
+   $global:userName="replaceusername@msazurelabs.onmicrosoft.com"  #replaceusername
+   $global:password="replacepassword"    #replacepassword
 
 $clientId="1950a258-227b-4e31-a9cf-717495945fc2"
 $global:sqlPassword = "password.1!!"
